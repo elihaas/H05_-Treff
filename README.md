@@ -4,7 +4,7 @@ Isolation im zunehmenden Alter verringert die Lebenserwartung.
 ## Unser Slogan
 Gemeinsamkeit gegen Einsamkeit
 
-### Das wichtigste im Überblick
+## Das wichtigste im Überblick
 1. Senioren sind oft Sozial isoliert, besonders durch:
 * Digitalisierung
 * Corona
