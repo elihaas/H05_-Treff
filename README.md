@@ -15,7 +15,7 @@ Gemeinsamkeit gegen Einsamkeit
 3. Die Zukunft der App
 * generationsübergreifende Vernetzung
 
-#### Das Team H05
+#### Das Team +Treff
 Leon Stehle, Katharina Obergöker, Alexander Lang, Elisabeth Haas
 
 ##### Quellen
