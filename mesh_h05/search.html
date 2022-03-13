@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!--Get your own code at fontawesome.com-->
+
+<style>
+
+body {
+  background-color: #A0BEE6;
+}
+
+header {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.button {
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+
+div {
+  max-width: 100%;
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div.inner {
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+div.text {
+	display: inline-block;
+	border: 5px solid #A0BEE6;
+	border-radius:5px;
+	min-height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+div.btn {
+	color: black;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div.btn:hover {
+	color: white;
+	background-color: #3C50B4;
+}
+
+#general {
+	column-count: 2;
+	min-width: 20%;
+}
+
+#hobbies {
+	column-count: auto;
+	min-width: 5%;
+	text-align: center;
+}
+
+#notiz {
+	display: block;
+	position: relative;
+	column-count: 1;
+	margin-right: 10px;
+	min-height: 150px;
+}
+
+#smallbtn {
+	display: inline-block;
+	align-items: stretch;
+	min-width: 20%;
+	margin-top: 10px;
+}
+
+#bigbtn {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+txt {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+ul {
+  display: inline-block;
+  column-count: 3;
+  width: 100%;
+  padding: 0;
+  background-color: #333;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li menu {
+  position: relative;
+  padding: 14px;
+  margin: auto;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li menu:link {
+	color: #333;
+}
+
+li menu:hover {
+  background-color: #3C50B4;
+}
+
+</style>
+</head>
+<body>
+
+<div>
+	<header>Aktivitaeten</header>
+</div>
+<div class="btn" id="smallbtn">Filter</div>
+<div class="btn" id="smallbtn">Suchen</div>
+
+</div>
+<ul>
+  <li><menu  class="button"><i class="fas fa-search"></i></menu></li>
+  <li><menu class="button"><i class="fas fa-home"></i></menu></li>
+  <li><menu class="button"><i class="fas fa-file"></i></menu></li>
+</ul>
+
+<div class="inner" id="body">
+	<div class="text" id="general">Gerdrun Schmidt</div>
+	<div class="text" id="general">Hannover</div>
+	<txt>Hobbies</txt>
+	<div class="text" id="hobbies">Wandern</div>
+	<div class="text" id="hobbies">Schwimmen</div>
+	<div class="text" id="hobbies">Tennis</div>
+	<div class="text" id="hobbies">Kochen</div>
+	<div class="text" id="hobbies">Schach</div>
+	<txt>Notiz</txt>
+	<div class="text" id="notiz">test</div>
+</div>
+
+<div class="btn" id="bigbtn">Mein Profil Bearbeiten</idiv>
+
+
+</body>
+</html>
+
+
